@@ -1,0 +1,67 @@
+* {
+    font-family: Roboto Condensed;
+}
+
+body {
+    overflow-x: hidden !important;
+    margin: 0;
+}
+
+/*star nav */
+.nav-link {
+    text-decoration: none !important;
+    margin: auto;
+    width: fit-content;
+    color: #000;
+    white-space: nowrap;
+}
+
+.fa {
+    position: relative;
+    margin-top: 10px;
+    ;
+}
+
+/* end nav */
+nav {
+    height: 7vh !important;
+
+}
+
+/* star css login*/
+.sign-in,
+.sign-out {
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.sign-out {
+    background-color: #f44336;
+}
+
+.sign-in:hover,
+.sign-out:hover {
+    opacity: 0.8;
+}
+
+/*end css login*/
+
+.dropdown-menu {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.card-img-top{
+    height: 200px;
+}
+/* star */
+
+.imaa{
+    height: 900px;
+    width: 900px;
+}
